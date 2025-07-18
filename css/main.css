@@ -5308,6 +5308,7 @@ textarea.custom-input {
 @media (min-width: 1200px) {
   .slide__content {
     min-width: 475px;
+    border-radius: 10px;
   }
 }
 
@@ -17436,4 +17437,93 @@ textarea.custom-input {
 
 .technical-drawing__section + .technical-drawing__section {
   border-top: solid 4px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .article-preview__imageIan {
+    height: 356px;
+  }
+}
+.article-preview__imageIan img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .article-preview__imageIan img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.review__imageIan {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/review-shapesIan.png");
+  background-position: center;
+  min-height: 300px;
+}
+@media (min-width: 450px) {
+  .review__imageIan {
+    min-height: 400px;
+  }
+}
+.review__imageIan img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .review__imageIan img {
+    max-width: none;
+  }
+}
+
+.review--parallax .review__imageIan {
+  background-image: url("../img/review-shapes-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 85vw;
+}
+
+@media (min-width: 768px) {
+  .review--parallax .review__imageIan {
+    height: 35vw;
+  }
+}
+
+@media (min-width: 1560px) {
+  .review--parallax .review__imageIan {
+    transform: translateX(-90px);
+  }
+}
+@media (min-width: 768px) {
+  .article-list__item.col-md-12 .article-preview__imageIan {
+    height: 545px;
+  }
+}
+.masonry .masonry-item .article-preview__imageIan {
+  position: relative;
+}
+.masonry .masonry-item .article-preview__imageIan {
+  height: auto;
 }
