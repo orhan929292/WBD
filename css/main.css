@@ -1834,7 +1834,7 @@ textarea.custom-input {
   font-size: 12px;
   line-height: 1.285;
   color: #000000;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
   letter-spacing: 0.22px;
   transition: color 0.3s ease;
@@ -1991,7 +1991,7 @@ textarea.custom-input {
 
 .social__link svg {
   display: block;
-  fill: #666666;
+  fill: #ffffff;
   align-self: center;
   transition: fill 0.3s ease;
 }
@@ -3280,7 +3280,7 @@ textarea.custom-input {
 }
 
 .header--fixed .logo__text {
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 13px;
 }
 
@@ -3736,7 +3736,7 @@ textarea.custom-input {
   background-color: #f9fbfd;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-image: url("../img/footer-bg.jpg");
+  background-image: url("../img/footer-bg-dark.jpg");
   background-size: cover;
 }
 
@@ -3987,7 +3987,7 @@ textarea.custom-input {
   margin: 8px 0 0;
   font-size: 16px;
   line-height: 1.33;
-  color: #666666;
+  color: #ffffff;
   letter-spacing: -0.025em;
 }
 
@@ -4020,7 +4020,7 @@ textarea.custom-input {
 .footer__email {
   font-size: 30px;
   line-height: 1.33;
-  color: #275026;
+  color: #ffffff;
   font-weight: 300;
   letter-spacing: -0.025em;
   transition: opacity 0.3s ease;
@@ -4040,7 +4040,7 @@ textarea.custom-input {
 
 .footer__email:hover, .footer__email:focus {
   outline: none;
-  color: #275026;
+  color: #ffffff;
   opacity: 0.7;
 }
 
@@ -4095,7 +4095,7 @@ textarea.custom-input {
 }
 
 .footer__copyright span {
-  color: #000000;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -4118,7 +4118,7 @@ textarea.custom-input {
 }
 
 .footer__design span {
-  color: #000000;
+  color: #ffffff;
 }
 
 @media (min-width: 576px) {
@@ -4147,7 +4147,7 @@ textarea.custom-input {
   margin-bottom: 24px;
   font-size: 24px;
   line-height: 1;
-  color: #000000;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -4217,7 +4217,7 @@ textarea.custom-input {
 
 .footer__column-link:hover, .footer__column-link:focus {
   outline: none;
-  color: #275026;
+  color: #ffffff;
 }
 
 .footer__column-link:active {
@@ -10727,18 +10727,18 @@ textarea.custom-input {
 }
 
 .type-service__item-icon--interior {
-  width: 120px;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' %3e%3cpath fill-rule='evenodd' fill='%23003300' d='M87.606 9.356s25.108 9.985 31.488 33.144c6.38 23.16-22.618 64.286-47.401 69.451-24.784 5.166-68.704-8.565-71.402-46.028C-2.408 28.46 15.143 9.288 41.163 2.105c26.953-7.441 46.443 7.251 46.443 7.251z'/%3e%3c/svg%3e");
+  width: 116px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3e%3ccircle cx='60' cy='60' r='60' fill='%23003300'/%3e%3c/svg%3e");
 }
 
 .type-service__item-icon--design {
-  width: 115px;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' %3e%3cpath fill-rule='evenodd' fill='%23003300' d='M58.534 113.411s-26.325 6.09-44.758-9.313c-18.433-15.404-18.017-65.724-.587-84.083 17.431-18.36 61.353-32.084 84.905-2.826 23.552 29.258 20.043 55.012 2.746 75.734-17.918 21.466-42.306 20.488-42.306 20.488z'/%3e%3c/svg%3e");
+  width: 116px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -10 120 120'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23003300' /%3E%3C/svg%3E");
 }
 
 .type-service__item-icon--furniture {
-  width: 120px;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' %3e%3cpath fill-rule='evenodd' fill='%23003300' d='M12.544 83.901s-16.991-21.01-11.2-44.324C7.134 16.263 52.568-5.371 76.702 2.275c24.134 7.645 55.686 41.141 39.675 75.118-16.01 33.976-40.705 42.085-66.906 35.592-27.14-6.725-36.927-29.084-36.927-29.084z'/%3e%3c/svg%3e");
+  width: 116px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-10 -10 120 120'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23003300' /%3E%3C/svg%3E");
 }
 
 .type-service__item-icon svg {
